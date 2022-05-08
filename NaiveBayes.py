@@ -1,14 +1,3 @@
-"""
-Improvements for Task 5:
-- Smoothing: Replaced Laplace smoothing with add-k smoothing. I tested a range of k values on the 
-training data and chose a k of 5.5. (Laplace smoothing corresponds to k = 1)
-- Negation words: Negative or diminishing modifiers such as not, no, never, little, etc. that change the following 
-word are counted as a single, distinct word to preserve context
-- Removal of correlated words (disabled by default): Words that are correlated with another word are removed.
-This task is time-intensive and so is disabled by default, but it can be enabled for the best model by setting 
-self.ENABLE_CORR_FEATURES = True
-"""
-
 import sys
 import getopt
 import os
