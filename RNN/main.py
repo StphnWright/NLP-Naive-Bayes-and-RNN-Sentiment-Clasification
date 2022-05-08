@@ -1,7 +1,3 @@
-"""
-Sentiment Classification with Naive Bayes - Main File
-"""
-
 import nltk
 import numpy as np
 import pandas as pd
