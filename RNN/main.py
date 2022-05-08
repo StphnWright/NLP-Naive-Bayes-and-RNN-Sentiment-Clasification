@@ -1,7 +1,5 @@
 """
-COMS 4705 Natural Language Processing Spring 2022 Zhou Yu
-Adapted from COMS 4705 Natural Language Processing Spring 2021 Kathy McKeown
-Homework 3: Sentiment Classification with Naive Bayes - Main File
+Sentiment Classification with Naive Bayes - Main File
 """
 
 import nltk
